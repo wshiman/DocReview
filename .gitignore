@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Runtime / cache
+.cache/
+.runtime/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# App outputs and generated artifacts
+outputs/
+*.log
+*.tmp
+*.temp
+
+# Generated review files
+*.docx
+*.pdf
+*.json
+*.md
+*.zip
+
+# Keep the project README tracked
+!README.md
+
+# Secrets / local configs
+.env
+.env.*
+*.env
+*api_key*
+*apikey*
+*token*
+
+# User conversation / notes
+对话记录_doc_review_tool.md
+
+# Optional local test/script folders
+tests/
+scripts/
